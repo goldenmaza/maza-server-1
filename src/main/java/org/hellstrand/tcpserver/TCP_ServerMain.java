@@ -5,7 +5,8 @@
 * @author (Richard M. Hellstrand)
 * @version (8-Juni-2010)
 */
-package public_html;
+package org.hellstrand.tcpserver;
+
 /**
 * Själva TCP_ServerMain-klassen; innehåller inga privata medlemsvariabler, ingen konstruktor,
 * en publik Main-metod för initiering av ett TCP_Server-objekt och körning av denna.

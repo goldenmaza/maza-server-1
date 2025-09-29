@@ -6,7 +6,8 @@
 * @author (Richard M. Hellstrand)
 * @version (8-Juni-2010)
 */
-package public_html;
+package org.hellstrand.tcpserver;
+
 /**
 * Själva RequestCode-klassen; innehåller sex privata medlemsvariabler, två konstruktorer,
 * en subklass och tio publika resp. två privata metoder (ej inkl. subklassens metod(er))

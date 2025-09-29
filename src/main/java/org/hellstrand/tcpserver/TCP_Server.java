@@ -5,10 +5,22 @@
 * @author (Richard M. Hellstrand)
 * @version (8-Juni-2010)
 */
-package public_html;
-import java.io.*;
-import java.net.*;
-import java.util.*;
+package org.hellstrand.tcpserver;
+
+import java.io.BufferedReader;
+import java.io.DataOutputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.net.MalformedURLException;
+import java.net.ServerSocket;
+import java.net.Socket;
+import java.net.URL;
+import java.net.URLConnection;
+import java.util.StringTokenizer;
 /**
 * Själva TCP_Server-klassen; innehåller fjorton privata medlemsvariabler, två konstruktorer och en publik resp.
 * trettioett privata metoder för ändringar, returneringar och utskrifter av dessa privata medlemsvariabler.

@@ -6,7 +6,8 @@
 * @author (Richard M. Hellstrand)
 * @version (8-Juni-2010)
 */
-package public_html;
+package org.hellstrand.tcpserver;
+
 /**
 * Själva HeaderCode-klassen; innehåller sex privata medlemsvariabler, en konstruktor,
 * två subklasser och sju publika resp. tio privata metoder (ej inkl. subklassernas)

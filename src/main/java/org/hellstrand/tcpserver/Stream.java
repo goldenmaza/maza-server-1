@@ -6,8 +6,13 @@
 * @author (Richard M. Hellstrand)
 * @version (8-Juni-2010)
 */
-package public_html;
-import java.io.*;
+package org.hellstrand.tcpserver;
+
+import java.io.BufferedReader;
+import java.io.DataOutputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.InputStream;
 /**
 * Själva HeaderCode-klassen; innehåller sex privata medlemsvariabler, en konstruktor,
 * två egna klasser och tio publika resp. noll privata metoder (ej inkl. subklassernas)
